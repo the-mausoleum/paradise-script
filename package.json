@@ -1,0 +1,23 @@
+{
+  "name": "paradise-script",
+  "version": "0.0.0",
+  "description": "Scripting for Paradise.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "directories": {
+    "bin": "./bin"
+  },
+  "preferGlobal": "true",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/maxdeviant/paradise-script.git"
+  },
+  "author": "Marshall Bowers <elliott.codes@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/maxdeviant/paradise-script/issues"
+  },
+  "homepage": "https://github.com/maxdeviant/paradise-script"
+}
