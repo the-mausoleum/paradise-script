@@ -1,6 +1,6 @@
 {
   "name": "paradise-script",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Scripting for Paradise.",
   "main": "index.js",
   "scripts": {
