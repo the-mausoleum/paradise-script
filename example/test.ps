@@ -1,9 +1,31 @@
-create teacup world
-    note I'm a little teacup.
-    program enter teacup
-    usage sit in
+create hotel
+    note Description of the hotel.
+    program enter hotel
+    usage check into
 
-    create nested
-        note some nesting
+    create lobby
+        note A grand lobby.
+
+        create reception desk
+        leave
+    leave
+
+    create elevator
+        create floor one
+            create room 101
+            leave
+
+            create room 102
+            leave
+        leave
+
+        create floor two
+        leave
+
+        create floor three
+        leave
+
+        create floor four
+        leave
     leave
 leave
