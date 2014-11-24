@@ -7,6 +7,8 @@ var test = require('tape');
 
 var paradise = require('../index');
 
+var debug = false;
+
 var specDir = path.join(__dirname, 'spec');
 
 var skipped = [];
@@ -36,7 +38,9 @@ files.forEach(function (file) {
             var expected = fs.readFileSync(path.join(path.dirname(target), 'expect.js'), 'utf8').trim();
             var actual = paradise(source).trim();
 
-            fs.writeFileSync(path.join(path.dirname(target), 'actual.js'), actual, 'utf8');
+            if (debug) {
+                fs.writeFileSync(path.join(path.dirname(target), 'actual.js'), actual, 'utf8');
+            }
 
             t.equal(actual, expected);
         }
