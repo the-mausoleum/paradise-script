@@ -36,7 +36,7 @@ files.forEach(function (file) {
             var expected = fs.readFileSync(path.join(path.dirname(target), 'expect.js'), 'utf8').trim();
             var actual = paradise(source).trim();
 
-            fs.writeFileSync(path.join(path.dirname(target), 'dump.js'), actual, 'utf8');
+            fs.writeFileSync(path.join(path.dirname(target), 'actual.js'), actual, 'utf8');
 
             t.equal(actual, expected);
         }
