@@ -33,8 +33,8 @@ files.forEach(function (file) {
             t.skip('skipped');
         } else {
             var source = fs.readFileSync(target, 'utf8');
-            var expected = fs.readFileSync(path.join(path.dirname(target), 'expect.js'), 'utf8');
-            var actual = paradise(source);
+            var expected = fs.readFileSync(path.join(path.dirname(target), 'expect.js'), 'utf8').trim();
+            var actual = paradise(source).trim();
 
             fs.writeFileSync(path.join(path.dirname(target), 'dump.js'), actual, 'utf8');
 
