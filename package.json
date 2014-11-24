@@ -4,7 +4,8 @@
   "description": "Scripting for Paradise.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "clean": "node ./test/clean.js",
+    "test": "node ./test/spec-test.js | tap-dot"
   },
   "directories": {
     "bin": "./bin"
@@ -22,5 +23,10 @@
   "homepage": "https://github.com/maxdeviant/paradise-script",
   "dependencies": {
     "optimist": "^0.6.1"
+  },
+  "devDependencies": {
+    "glob": "^4.2.1",
+    "tap-dot": "^0.2.3",
+    "tape": "^3.0.3"
   }
 }
