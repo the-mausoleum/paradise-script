@@ -1,0 +1,8 @@
+create hotel
+    create lobby
+        create reception desk
+            create guest registry
+            leave
+        leave
+    leave
+leave
