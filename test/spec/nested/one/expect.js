@@ -7,6 +7,7 @@
             feedback: '',
             name: lobby_name,
             note: '',
+            paint: '',
             program: '',
             usage: '',
             children: [
@@ -18,6 +19,7 @@
         feedback: '',
         name: hotel_name,
         note: '',
+        paint: '',
         program: '',
         usage: '',
         children: [

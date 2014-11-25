@@ -6,6 +6,7 @@
         feedback: '',
         name: hotel_name,
         note: hotel_note,
+        paint: '',
         program: '',
         usage: '',
         children: [

@@ -11,6 +11,7 @@
                     feedback: '',
                     name: guest_registry_name,
                     note: '',
+                    paint: '',
                     program: '',
                     usage: '',
                     children: [
@@ -22,6 +23,7 @@
                 feedback: '',
                 name: reception_desk_name,
                 note: '',
+                paint: '',
                 program: '',
                 usage: '',
                 children: [
@@ -34,6 +36,7 @@
             feedback: '',
             name: lobby_name,
             note: '',
+            paint: '',
             program: '',
             usage: '',
             children: [
@@ -46,6 +49,7 @@
         feedback: '',
         name: hotel_name,
         note: '',
+        paint: '',
         program: '',
         usage: '',
         children: [
