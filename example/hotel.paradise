@@ -1,5 +1,5 @@
 create hotel
-    # This is a comment
+    ; This is a comment
     note Description of the hotel.
     program enter hotel
     usage check into

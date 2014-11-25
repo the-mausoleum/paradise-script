@@ -1,0 +1,4 @@
+create hotel
+    ; note This note should not appear.
+    note This note should appear.
+leave
