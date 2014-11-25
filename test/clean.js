@@ -6,7 +6,7 @@ var path = require('path');
 
 var specDir = path.join(__dirname, 'spec');
 
-var files = glob.sync('*/actual.js', {
+var files = glob.sync('**/*/actual.js', {
     cwd: specDir
 });
 

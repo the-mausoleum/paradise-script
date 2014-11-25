@@ -13,7 +13,7 @@ var specDir = path.join(__dirname, 'spec');
 
 var skipped = [];
 
-var files = glob.sync('*/*.paradise', {
+var files = glob.sync('**/*/source.paradise', {
     cwd: specDir
 });
 
